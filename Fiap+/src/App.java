@@ -22,6 +22,15 @@ import br.com.fiap.cp.model.Filme;
 
 public class App extends JFrame implements ActionListener  {
 	
+	/**
+	 * Classe de interface gráfica
+	 * 
+	 * @author Victor Rubem
+	 * @version 1.0
+	 * 
+	 * 
+	 */
+	
 	private List<Filme> listaFilmes = new ArrayList<Filme>();
 	
 	private JTextArea textLista = new JTextArea();
