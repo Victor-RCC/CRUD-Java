@@ -5,6 +5,14 @@ import java.util.Comparator;
 
 public class Filme implements Comparable<Filme> {
 	
+	/**
+	 * Classe de filmes
+	 * 
+	 * @author Victor Rubem
+	 * @version 1.0
+	 * 
+	 */
+	
 	private Long id;
 	private String titulo;
 	private int ano_lancamento;
@@ -119,6 +127,14 @@ public class Filme implements Comparable<Filme> {
 	
 	@Override
 	public int compareTo(Filme o) {
+		
+		/**
+		 * Método para comparar objetos filme a partir da sua nota
+		 * 
+		 * @return 1, -1, 0 
+		 * 
+		 */
+		
 		if(this.nota < o.getNota()) {
 			return 1;
 		}

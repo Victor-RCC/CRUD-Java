@@ -9,9 +9,28 @@ import javax.swing.JOptionPane;
 import br.com.fiap.cp.dao.FilmesDAO;
 
 public class ExclusaoFilme {
+	
+	/**
+	 * Classe que exclui filmes do banco de dados
+	 *
+	 *@author Victor Rubem
+	 *@version 1.0
+	 *
+	 *
+	 */
 
 	
 	public ExclusaoFilme() {
+		
+		/**
+		 * Método que exclui o filme do id digitado através do método excluir
+		 * da classe FilmesDAO.
+		 * 
+		 * 
+		 * 
+		 */
+		
+		
 		try {
 			Connection connection = ConnectionFactory.getConnetion();
 			
